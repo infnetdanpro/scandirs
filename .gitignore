@@ -1,0 +1,11 @@
+dist
+build
+dist/
+build/
+venv
+venv/
+__pycache__
+__pycache__/
+*.csv
+*.spec
+.idea
