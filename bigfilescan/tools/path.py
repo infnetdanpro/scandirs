@@ -31,7 +31,9 @@ def validate_path(path: str) -> str:
                 path += '\\'
             return path
         elif platform.system() == 'Linux':
-            pass
+            if not path.endswith('/'):
+                path += '/'
+            return path
         else:
             raise Exception('Windows or Linux, sorry :<')
     else:
