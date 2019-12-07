@@ -1,7 +1,8 @@
 import csv
+from typing import AnyStr
 
 
-def save_to_csv(files_sizes, csv_filename):
+def save_to_csv(files_sizes: AnyStr, csv_filename: AnyStr) -> bool or None:
     with open(csv_filename, 'w', encoding='utf-8-sig', newline='') as csv_file:
         csv_writer = csv.writer(csv_file, dialect='excel', delimiter=';', quotechar='|', quoting=csv.QUOTE_MINIMAL)
         csv_writer.writerow(['#', 'filename', 'filesize', 'created', 'type'])
