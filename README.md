@@ -16,7 +16,7 @@ or
 
 > \> scandir.exe -d C:/Users/Max/Downloads
 
-4. The report will be created in the same folder as "Report_scandir_<timestamp>.csv"
+4. The report will be created in the same folder as "Report_scandir_[timestamp].csv"
 
 
 ### Alternative use
