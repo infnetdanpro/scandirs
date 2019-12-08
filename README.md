@@ -6,6 +6,7 @@ This program answer for these questions:
  It's very small console util.
  
 ## Example usage
+0. Download [the latest release](https://github.com/infnetdanpro/scandirs/releases)
 1. Run cmd.exe
 2. Move to directory with file scandir.exe
 3. Run program: 
