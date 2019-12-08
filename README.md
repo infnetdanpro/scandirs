@@ -11,6 +11,8 @@ This program answer for these questions:
 2. Move to directory with file scandir.exe
 3. Run program: 
 > \> scandir.exe -d D:\
+or
+> \> scandir.exe -d C:/Users/Max/Downloads
 
 4. The report will be created in the same folder as "Report_scandir_<timestamp>.csv"
 
