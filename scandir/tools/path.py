@@ -25,9 +25,9 @@ def scan_dir(path: AnyStr) -> List:
 
 
 def validate_path(path: str) -> str:
-    if os.path.exists(path):
+    if not os.path.exists(path):
         raise ValueError('This path not exists')
-    elif os.path.isdir(path):
+    elif not os.path.isdir(path):
         raise ValueError('This path is not a directory')
     elif platform.system() == 'Windows':
         if not path.endswith('\\'):
